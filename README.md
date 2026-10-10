@@ -27,6 +27,8 @@ Open [http://localhost:8000](http://localhost:8000) for the poems, or [http://lo
 
 On desktop, selecting a numbered verse opens its notes with a visual connector. On mobile, the notes expand directly beneath the selected verse.
 
+The [visual direction](DESIGN.md) borrows the original Gemini image's hopeful illustrated science-fiction framing.
+
 ## Hosting
 
 Serve the contents of `dist/` with any static web host. The entry points are `index.html` and `notes.html`; all local asset paths are relative. The fonts are loaded from Google Fonts.
