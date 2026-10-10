@@ -23,7 +23,7 @@ Open [http://localhost:8000](http://localhost:8000) for the poems, or [http://lo
 - `dist/content.js` — poem text, original notes, and verse references.
 - `dist/site.js` — rendering, poem navigation, and annotation interactions.
 - `dist/styles.css` — typography, artwork layout, and responsive styles.
-- `dist/assets/` — the crayon illustrations and the original Gemini image discussed in note 05.
+- `dist/assets/` — the crayon illustrations and the Gemini visualization discussed in note 05 and collected at the bottom of the main poem page.
 
 On desktop, selecting a numbered verse opens its notes with a visual connector. On mobile, the notes expand directly beneath the selected verse.
 

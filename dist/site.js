@@ -80,16 +80,19 @@
       link.href = './assets/gemini-original.png';
       link.target = '_blank';
       link.rel = 'noopener';
-      link.setAttribute('aria-label', 'Open the original Gemini image at full size');
+      link.setAttribute('aria-label', 'Open the Gemini visualization at full size');
       const img = document.createElement('img');
       img.src = './assets/gemini-original.png';
-      img.alt = 'The original Gemini illustration: an optimistic, illustrated triptych of the poem, including its broken generated lettering.';
+      img.alt = 'Gemini’s visualization: an optimistic, illustrated triptych of the poem, including its imperfect generated lettering.';
       img.width = 1408;
       img.height = 768;
       img.loading = 'lazy';
       link.appendChild(img);
       const caption = document.createElement('figcaption');
-      caption.textContent = 'Original Gemini image · Open full size ↗';
+      const galleryLink = document.createElement('a');
+      galleryLink.href = './index.html#gemini-visualization';
+      galleryLink.textContent = 'Gemini visualization · View with the poems ↗';
+      caption.appendChild(galleryLink);
       figure.append(link, caption);
       container.appendChild(figure);
     }
