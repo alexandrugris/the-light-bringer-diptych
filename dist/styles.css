@@ -203,7 +203,6 @@ body[data-page=poems] main { max-width: 1340px; margin: auto; padding: 20px 28px
 .source-gallery a { text-underline-offset: 4px; }
 .universe-footer { margin: 70px 0 28px; overflow: hidden; border: 1px solid var(--silver); border-radius: 60px 60px 24px 24px; background: #203449; box-shadow: 0 0 0 4px var(--deep), 0 0 0 5px #78959c; }
 .universe-footer img { display: block; width: 100%; height: auto; }
-.universe-footer figcaption { padding: 26px 24px 30px; color: var(--cream); text-align: center; font: 400 21px/1.5 var(--serif); }
 
 @media (max-width: 1100px) and (min-width: 901px) {
   .verse-panel { padding: 0 18px; }
@@ -295,7 +294,6 @@ body[data-page=poems] main { max-width: 1340px; margin: auto; padding: 20px 28px
   .source-gallery h2 { font-size: 30px; }
   .source-gallery figcaption { font-size: 11px; }
   .universe-footer { margin-top: 35px; border-radius: 35px 35px 20px 20px; }
-  .universe-footer figcaption { padding: 21px 16px 25px; font-size: 18px; }
   .site-footer { flex-direction: column; gap: 12px; padding: 24px 20px 32px; font-size: 11px; }
 }
 @media (prefers-reduced-motion: reduce) {
