@@ -13,4 +13,6 @@ The approved crayon illustrations remain the principal artwork. The orbit-and-fl
 
 The technologist illustration has a wider background so it fills the arched cover panel on desktop and mobile while preserving the full standing pose.
 
+The reading-notes page closes with an illustration of automated machines continuing their work in an empty cosmos, in the Gemini visualization's illustrated science-fiction style. All artificial lights are off; the machinery is visible in natural celestial light. Its caption quotes the poem's "Machines humming" passage.
+
 The poems and original reading-note bodies are preserved verbatim. The annotation interactions use the existing numbered verse markers, desktop connectors, and mobile expansions beneath each selected verse.

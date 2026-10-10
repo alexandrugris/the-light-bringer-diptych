@@ -152,9 +152,12 @@ body[data-page=poems] main { max-width: 1340px; margin: auto; padding: 20px 28px
   display: flex; flex-direction: column; min-height: 0; padding: 0 25px; background: #e5eee4;
 }
 .panel-head { display: flex; align-items: center; justify-content: space-between; gap: 12px; min-height: 76px; border-bottom: 1px solid #9cb2af; color: #566e73; letter-spacing: .05em; }
-.poem-switch { display: flex; gap: 5px; }
-.poem-switch button { border: 1px solid #93acae; border-radius: 22px; background: transparent; color: #4f6870; padding: 9px 10px; font: 500 10px var(--sans); cursor: pointer; }
-.poem-switch button.is-active { color: var(--ink); background: #f4d6a5; border-color: #a08660; }
+.verse-panel-head { min-height: 88px; }
+.poem-switch { display: flex; gap: 8px; }
+.poem-switch button { min-height: 46px; border: 1.5px solid #718f95; border-radius: 28px; background: #f0f4e9; color: var(--ink); padding: 12px 16px; font: 600 14px var(--sans); letter-spacing: 0; box-shadow: 0 2px 0 #304b602a; cursor: pointer; }
+.poem-switch button:hover { background: #e1eddf; }
+.poem-switch button.is-active { color: var(--ink); background: var(--gold); border-color: #7c6440; box-shadow: 0 3px 0 #665b4666; }
+.poem-switch button.is-active:hover { background: #f8d9a3; }
 .verse-scroll { min-height: 0; flex: 1; overflow: auto; scrollbar-width: thin; scrollbar-color: #8ca5a8 transparent; padding: 32px 4px 60px 0; }
 .mini-poem h2 { font: 400 36px/1.15 var(--serif); letter-spacing: -.025em; margin: 0 0 34px; }
 .mini-poem .poem-stanza { margin-bottom: 1.4em; }
@@ -198,11 +201,14 @@ body[data-page=poems] main { max-width: 1340px; margin: auto; padding: 20px 28px
 .source-gallery img { display: block; width: 100%; height: auto; border-radius: 12px; border: 1px solid #90adb5; }
 .source-gallery figcaption { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 18px; margin-top: 16px; color: var(--silver); font: 400 12px/1.5 var(--sans); }
 .source-gallery a { text-underline-offset: 4px; }
+.universe-footer { margin: 70px 0 28px; overflow: hidden; border: 1px solid var(--silver); border-radius: 60px 60px 24px 24px; background: #203449; box-shadow: 0 0 0 4px var(--deep), 0 0 0 5px #78959c; }
+.universe-footer img { display: block; width: 100%; height: auto; }
+.universe-footer figcaption { padding: 26px 24px 30px; color: var(--cream); text-align: center; font: 400 21px/1.5 var(--serif); }
 
 @media (max-width: 1100px) and (min-width: 901px) {
   .verse-panel { padding: 0 18px; }
   .verse-panel-head { flex-wrap: wrap; padding: 16px 0; }
-  .poem-switch button { padding: 8px; }
+  .poem-switch button { padding: 10px 12px; }
   .annotation-panel { padding: 0 18px 25px; }
   .notes-intro::after { width: 145px; right: 45px; }
 }
@@ -217,10 +223,10 @@ body[data-page=poems] main { max-width: 1340px; margin: auto; padding: 20px 28px
   .cover-art figcaption { font-size: 7px; padding: 8px; }
   .reading-desk { grid-template-columns: minmax(0,1fr); gap: 0; }
   .verse-panel { position: relative; top: auto; height: auto; max-height: none; min-height: 0; padding: 0 24px; }
-  .verse-panel-head { position: sticky; top: 0; background: #e5eee4; z-index: 6; min-height: 76px; }
+  .verse-panel-head { position: sticky; top: 0; background: #e5eee4; z-index: 6; min-height: 88px; }
   .verse-panel-head > span { display: none; }
   .poem-switch { width: 100%; gap: 8px; }
-  .poem-switch button { flex: 1; min-width: 0; padding: 12px 8px; font-size: 11px; }
+  .poem-switch button { flex: 1; min-width: 0; padding: 14px 8px; font-size: clamp(12px, 3.3vw, 14px); }
   .verse-scroll { height: auto; max-height: none; overflow: visible; padding: 32px 0 20px; }
   .mini-poem .poem-line { font-size: 22px; }
   .verse-trigger { padding-top: 4px; padding-bottom: 4px; }
@@ -288,6 +294,8 @@ body[data-page=poems] main { max-width: 1340px; margin: auto; padding: 20px 28px
   .source-gallery { border-radius: 32px 32px 18px 18px; padding: 28px 17px 22px; margin-bottom: 25px; }
   .source-gallery h2 { font-size: 30px; }
   .source-gallery figcaption { font-size: 11px; }
+  .universe-footer { margin-top: 35px; border-radius: 35px 35px 20px 20px; }
+  .universe-footer figcaption { padding: 21px 16px 25px; font-size: 18px; }
   .site-footer { flex-direction: column; gap: 12px; padding: 24px 20px 32px; font-size: 11px; }
 }
 @media (prefers-reduced-motion: reduce) {
