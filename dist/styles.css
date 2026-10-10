@@ -177,6 +177,7 @@ body[data-page=poems] main { max-width: 1340px; margin: auto; padding: 20px 28px
 .note-card.is-active .note-kicker { color: #81572e; }
 .note-content { padding: 0 9px 28px 8px; }
 .note-prose { margin: 0; font: 400 17px/1.68 var(--serif); color: var(--ink); overflow-wrap: break-word; }
+.note-prose + .note-prose { margin-top: 1em; }
 .note-scope { margin: 20px 0 0; color: #687165; font: 500 10px/1.5 var(--sans); letter-spacing: .035em; text-transform: uppercase; }
 .note-source-image { margin: 24px 0 0; }
 .note-source-image a, .note-source-image img { display: block; width: 100%; height: auto; }

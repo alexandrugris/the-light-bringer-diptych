@@ -1,6 +1,6 @@
 # Visual direction
 
-The visual reference is the Gemini visualization collected at the bottom of the main poem page and in [Alexandru Gris's publication](https://blog.alexandrugris.ro/2026/04/the-light-bringer-poetic-reflection-of.html). Its reading note links back to this gallery.
+The visual reference is the Gemini visualization shown after the poems and before the reading-notes link, and in [Alexandru Gris's publication](https://blog.alexandrugris.ro/2026/04/the-light-bringer-poetic-reflection-of.html). Its reading note links back to this gallery.
 
 Its inviting, slightly childish hope makes the poem's implications more unsettling. The website borrows its illustrated science-fiction vocabulary:
 

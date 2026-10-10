@@ -69,10 +69,12 @@
   let inlinePanel = null;
 
   function appendNoteContent(container, note) {
-    const prose = document.createElement('p');
-    prose.className = 'note-prose';
-    prose.textContent = note.body;
-    container.appendChild(prose);
+    note.body.split(/\n\s*\n/).forEach(paragraph => {
+      const prose = document.createElement('p');
+      prose.className = 'note-prose';
+      prose.textContent = paragraph;
+      container.appendChild(prose);
+    });
     if (note.id === 'image') {
       const figure = document.createElement('figure');
       figure.className = 'note-source-image';
