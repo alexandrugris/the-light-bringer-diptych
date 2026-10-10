@@ -79,12 +79,12 @@
       const figure = document.createElement('figure');
       figure.className = 'note-source-image';
       const link = document.createElement('a');
-      link.href = './assets/gemini-original.png';
+      link.href = './assets/gemini-original.webp';
       link.target = '_blank';
       link.rel = 'noopener';
       link.setAttribute('aria-label', 'Open the Gemini visualization at full size');
       const img = document.createElement('img');
-      img.src = './assets/gemini-original.png';
+      img.src = './assets/gemini-original.webp';
       img.alt = 'Gemini’s visualization: an optimistic, illustrated triptych of the poem, including its imperfect generated lettering.';
       img.width = 1408;
       img.height = 768;
