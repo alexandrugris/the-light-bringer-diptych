@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#161d20">
+    <meta name="description" content="An annotated reading of The Light Bringer and The Others by Alexandru Gris.">
+    <title>Reading Notes — The Light Bringer</title>
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body data-page="notes">
+    <header class="site-header">
+      <a class="wordmark" href="./index.html" aria-label="The Light Bringer, home">The Light Bringer</a>
+      <nav aria-label="Main navigation">
+        <a href="./index.html">The poems</a>
+        <a aria-current="page" href="./notes.html">Reading notes</a>
+      </nav>
+    </header>
+
+    <main class="notes-main">
+      <div class="notes-intro">
+        <p class="eyebrow">02 / READING NOTES</p>
+        <h1>The space<br>between lines.</h1>
+        <p>A poem is a lossy compression. Feelings, thoughts, worries, joys, concerns, all packed in a few words. A trace. The decompression is in the mind of the reader, informed by their own subjective thoughts, worries, joys, concerns, fears. Sometimes they resonate, sometime they don't. When they do, the reader feels understood. When they seem to clash, it raises negative emotions such as panic, disgust, angriness.</p>
+        <p class="verbatim-label">THE EXPLANATIONS BELOW ARE THE AUTHOR'S WORDS. THE LINE LINKS ARE EDITORIAL.</p>
+        <div class="instruction"><span class="instruction-symbol" aria-hidden="true">↗</span><span class="desktop-instruction">Select a numbered verse or a note to follow its connections.</span><span class="mobile-instruction">Tap a numbered verse. Its reading notes open directly beneath it.</span></div>
+      </div>
+
+      <div class="reading-desk" id="reading-desk">
+        <div class="verse-panel" id="verse-panel">
+          <div class="panel-head verse-panel-head"><span>THE TEXT</span><div class="poem-switch" role="group" aria-label="Choose poem"><button class="is-active" type="button" data-poem="light" aria-pressed="true">I / The Light Bringer</button><button type="button" data-poem="others" aria-pressed="false">II / The Others</button></div></div>
+          <div class="verse-scroll" id="verse-scroll"><div class="mini-poem" id="mini-poem"></div></div>
+        </div>
+
+        <svg class="connection-layer" id="connection-layer" aria-hidden="true"><path id="connection-path"></path><circle id="connection-dot-start" r="4"></circle><circle id="connection-dot-end" r="4"></circle></svg>
+
+        <section class="annotation-panel" aria-labelledby="notes-title">
+          <div class="panel-head"><span id="notes-title">AUTHOR’S NOTES</span><span>01 — 08</span></div>
+          <div class="related-note-options" id="related-note-options" hidden></div>
+          <div id="note-list"></div>
+        </section>
+      </div>
+
+      <details class="mobile-note-index"><summary>Browse all eight reading notes <span aria-hidden="true">+</span></summary><div id="mobile-note-list"></div></details>
+
+      <section class="source-gallery" aria-labelledby="gemini-title">
+        <p class="eyebrow">SOURCE MATERIAL / NOTE 05</p>
+        <h2 id="gemini-title">The original Gemini image</h2>
+        <figure><a href="./assets/gemini-original.png" target="_blank" rel="noopener" aria-label="Open the original Gemini image at full size"><img loading="lazy" src="./assets/gemini-original.png" width="1408" height="768" alt="The original Gemini-generated illustration of The Light Bringer, with its optimistic scenes and imperfect lettering."></a><figcaption><a href="./assets/gemini-original.png" target="_blank" rel="noopener">Open full-size image ↗</a><a href="https://blog.alexandrugris.ro/2026/04/the-light-bringer-poetic-reflection-of.html">Original publication ↗</a></figcaption></figure>
+      </section>
+    </main>
+
+    <footer class="site-footer"><span>Poems and source notes by Alexandru Gris</span><a href="./index.html">Return to the poems ↑</a></footer>
+    <script src="./content.js"></script>
+    <script src="./site.js"></script>
+  </body>
+</html>

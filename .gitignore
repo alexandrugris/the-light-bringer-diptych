@@ -1,0 +1,23 @@
+# Local Sites checkout and hosting metadata
+.sites-checkout/
+.openai/
+
+# Local agent configuration
+.codex/
+.agents/
+
+# Editor and operating-system files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Credentials and local environment configuration
+.env
+.env.*
+!.env.example
+
+# Local dependencies and caches
+node_modules/
+__pycache__/
+*.pyc
