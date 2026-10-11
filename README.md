@@ -36,3 +36,20 @@ The [visual direction](DESIGN.md) borrows the original Gemini image's hopeful il
 Serve the contents of `dist/` with any static web host. The entry points are `index.html` and `notes.html`; all local asset paths are relative. The fonts are loaded from Google Fonts.
 
 The [hosted edition](https://the-light-bringer-diptych.ambercoin8.chatgpt.site) is managed separately through Sites.
+
+### The canonical edition lives on alexandrugris.ro
+
+`/lightbringer/` is a sub-site of **https://alexandrugris.ro/lightbringer/**, served from one
+shared docroot alongside the personal site, the history site and the literature site — each
+owned by its own repository. Deploy everything with:
+
+```bash
+"~/Downloads/Personal Website/tools/deploy.sh"
+```
+
+It backs up the docroot, deploys all four sites, rebuilds `sitemap.xml` and verifies the live
+site against the repositories afterwards. Never rsync to the docroot wholesale and never use
+`--delete`: the docroot holds three sub-sites this repository does not contain.
+
+`dist/` here is hand-edited, not generated — there is no build step, so edits to it survive.
+The full estate map and verification procedure live in `~/Downloads/Personal Website/AGENTS.md`.
